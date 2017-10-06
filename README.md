@@ -1,11 +1,12 @@
 # Team America
 
 ### Team Members:
+* Apik Zorian - apikzorian@gmail.com
 * Jean-Paul Haddad - jeanpaul.haddad@gmail.com
 * Shaobo Luo - luos@u.nus.edu
 * Sourav Seal - sourav.seal@gmail.com
 * Kelly Smith - kellymichaelsmith@gmail.com
-* Apik Zorian - apikzorian@gmail.com
+
 
 ## Introduction
 For this project, our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. The project can be broken up into three parts: (1) Traffic Light detection, (2)  Control, and (3) Waypoint Following. In Traffic Light Detection, we designed a detection node that would take the current waypoints of the car and an image taken from the car and determine if the closest traffic light was red or not. For Control, we designed a drive-by-wire (dbw) node that could take the target linear and angular velocities and publish commands for the throttle, brake, and steering of the car. Finally, the Waypoint Follower would take information from the traffic light detection and the current waypoints and update the target velocities for each waypoint based on this information. 
